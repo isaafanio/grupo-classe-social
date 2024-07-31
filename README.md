@@ -1,1 +1,1 @@
-# grupo-artificial
+# classe social
