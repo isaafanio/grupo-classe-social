@@ -27,7 +27,7 @@ const perguntas = [
             },
             {
                 texto: "Não, acho que a educação sozinha não é o suficiente para garantir a ascensão social ",
-                afirmacao: "Embora a educação seja importante, outros fatores como rede de apoio, condições economicas, didscriminação social e acesso a oportunidades também desemprenham papéis cruciais."
+                afirmacao: "Embora a educação seja importante, outros fatores como rede de apoio, condições economicas, discriminação social e acesso a oportunidades também desemprenham papéis cruciais."
             }
         ]
     },
