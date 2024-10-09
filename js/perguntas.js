@@ -1,76 +1,173 @@
 export const perguntas = [
     {
-        enunciado: "Quais são os principais fatores que determinam a classe social de uma pessoa?",
+        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
         alternativas: [
             {
-                texto: "Renda, educação, propriedade de bens",
-                afirmacao: [ "São grupos de indivíduos que partilham de uma posição similar nas relações de produção. " , 
-                             "Os principais fatores que determinam a classe social de uma pessoa são a renda, patrimônio, educação, ocupação profissional e acesso a redes sociais."
-                ], 
+                texto: "Isso é assustador!",
+                afirmacao: [
+                    "No início ficou com medo do que essa tecnologia pode fazer.",
+                    "Achou assustador pensar na velocidade na qual a tecnologia está avançando."
+                ],
                 proxima: 1,
             },
             {
-                texto: "Personalidade, preferencias pessoais, religião",
-                afirmacao: [ "A classe social também é uma dimensão política", 
-                             "A classe social de uma pessoa não é determinada apenas por sua renda, mas também por fatores como educação, ocupação, patrimônio e acesso a redes socias."
+                texto: "Isso é maravilhoso!",
+                afirmacao: [
+                    "Quis saber como usar IA no seu dia a dia.",
+                    "Pensou que IA pode ajudar em tarefas da sua vida."
                 ],
                 proxima: 2,
-            }
+            },
         ]
     },
     {
-        enunciado: "Você acredita que a educação pode ser um fator determinante para ascensão social?",
+        enunciado: "Utilizar uma IA pode ser aterrorizante mesmo, e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
         alternativas: [
             {
-                texto: "Sim, acredito que a educação é crucial para ascensão social",
-                afirmacao: [ "A educação fornece as habilidades e conhecimentos necessários para acessar melhores oportunidades de emprego e sálarios mais altos." ,
-                             "A educação pode ser determinante para a ascensão social, pois oferece conhecimentos, habilidades e oportunidades que melhoram as condições de vida e promovem a mobilidade social."
+                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                afirmacao: [
+                    "Conseguiu utilizar a IA para buscar informações úteis.",
+                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
+                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Não, acho que a educação sozinha não é o suficiente para garantir a ascensão social ",
-                afirmacao: [ "Embora a educação seja importante, outros fatores como rede de apoio, condições economicas, didscriminação social e acesso a oportunidades também desemprenham papéis cruciais." ,
-                             "Não acreidto que a educação embora importante, não é o único fator determinante para a ascensão social, pois outros fatores também são essenciais"
+                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                afirmacao: [
+                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
+                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
+                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
                 ],
                 proxima: 4,
-            }
+            },
         ]
     },
     {
-        enunciado: "Qual é a diferença entre classe social e status social?",
+        enunciado: "Um chat com IA pode ser uma boa alternativa para realizar tarefas do dia a dia e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
         alternativas: [
             {
-                texto: "A classe social está mais relacionada a fatores econômicos e ocupacionais, enquanto o status social envolve a posição hierarquia.",
-                 afirmacao: [ "Pode ser influenciada por prestígio, que honra e respeito, além da riqueza." ,
-                              "A dificuldade entre classe social e status social é que a classe se baseia em fatores econômicos, enquanto o status depende da percepção e reconhecimento social."
-               ],
-               proxima: 5,
+                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                afirmacao: [
+                    "Conseguiu utilizar a IA para buscar informações úteis.",
+                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
+                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
+                ],
+                proxima: 3,
             },
             {
-                texto: "A classe social está relacionada a raça e a relígião e o status social a hierarquia da pessoa",
-                afirmacao: [ "Influencia ma hierquia da família e o fator econômico.", 
-                             "A dificuldade entre classe social e status social não se limita a fatores econômicos, mas inclui percepção e reconhecimento social."
+                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                afirmacao: [
+                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
+                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
+                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
+                ],
+                proxima: 4,
+            },
+        ]
+    },
+    {
+        enunciado: "Ferramentas de busca que utilizam IA podem facilitar muito nosso processo de busca por informações. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
+        alternativas: [
+            {
+                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                afirmacao: [
+                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
+                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                ],
+                proxima: 5,
+            },
+            {
+                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                afirmacao: [
+                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
+                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
                 ],
                 proxima: 6,
-            }
+            },
         ]
     },
     {
-        enunciado: "Quais são os impactos da desigualdade social nas classes sociais?",
+        enunciado: "Utilizar informações próprias traz um toque pessoal ao nosso trabalho. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
         alternativas: [
             {
-                texto: "Pode levar á disparidade na distribuição de recursos e oportunidades.",
-                afirmacao: [ "Criam barreiras significativas para a mobilidade social e perpetuando a divisão entre as classes" , 
-                             "A desigualdade social aumenta as disparidades ecônomicas, limita o acesso a oportunidades e perpetua ciclos de pobreza, afetando negativamente as classes sociais mais baixas."
-               ],
+                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                afirmacao: [
+                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
+                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                ],
+                proxima: 5,
             },
             {
-                texto: "A desigualdade social não tem impactos significativos na sociedade",
-                afirmacao: [ "Tem as mesmas oportunidades de sucesso idependente da sua classe" , 
-                             "A desigualdade social não afeta apenas as disparidades ecônomicas, mas também limita o acesso a oportunidades e perpetua a exclusão social."
+                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                afirmacao: [
+                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
+                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
                 ],
-            }
+                proxima: 6,
+            },
         ]
     },
+    {
+        enunciado: "Novas tecnologias trazem novos desafios, por isso após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        alternativas: [
+            {
+                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                afirmacao: [
+                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
+                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                ],
+                proxima: 7,
+            },
+            {
+                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                afirmacao: [
+                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
+                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                ],
+                proxima: 7,
+            },
+        ]
+    },
+    {
+        enunciado: "É muito importante refletir sobre os trabalhadores do futuro. Por isso a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        alternativas: [
+            {
+                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                afirmacao: [
+                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
+                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                ],
+                proxima: 7,
+            },
+            {
+                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                afirmacao: [
+                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
+                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                ],
+                proxima: 7,
+            },
+        ]
+    },
+    {
+        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        alternativas: [
+            {
+                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                afirmacao: [
+                    "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes.",
+                    "Ainda acha que os meios de desenho tradicionais são mais eficazes para a criatividade, por isso vem estimulando pessoas em suas redes sociais a fazer pintura em aquarela."
+                ],
+            },
+            {
+                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                afirmacao: [
+                    "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!",
+                    "Compartilhou artes em redes sociais como forma de ensinar como se comunicar através da arte.",
+                    "Percebeu que muitas pessoas têm dificuldade em expressar suas ideias desenhando e acha que a IA é capaz de empoderar essas pessoas a tirarem ideias do papel."
+                ],
+            },
+        ]
+    }
 ];
